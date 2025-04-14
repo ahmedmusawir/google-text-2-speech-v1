@@ -19,8 +19,8 @@ chunks = split_text_by_bytes(bangla_script)
 client = texttospeech.TextToSpeechClient()
 voice = texttospeech.VoiceSelectionParams(
     language_code="bn-IN",
-    name="bn-IN-Chirp3-HD-Leda"
-    # name="bn-IN-Chirp3-HD-Charon"
+    name="bn-IN-Chirp3-HD-Charon"
+    # name="bn-IN-Chirp3-HD-Leda"
 )
 audio_config = texttospeech.AudioConfig(
     audio_encoding=texttospeech.AudioEncoding.MP3
