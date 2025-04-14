@@ -36,6 +36,8 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 tts-key.json
+tts-key-cyberize.json
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
